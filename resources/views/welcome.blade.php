@@ -54,15 +54,15 @@
 
                     {{-- alert --}}
                     <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                      <i class="bi bi-info-circle-fill"></i>
-                      <strong>Drug Available</strong> Aminoleban 500 ml Not 250 ml.
+                      <i class="bi bi-exclamation-diamond-fill"></i>
+                      <strong>Drug Wrning</strong> Aminoleban 500 ml Not 250 ml.
                       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
                      {{-- alert end --}}
 
                      {{-- alert --}}
                     <div class="alert alert-success alert-dismissible fade show" role="alert">
-                      <i class="bi bi-info-circle-fill"></i>
+                      <i class="bi bi-check-circle-fill"></i>
                       <strong>Drug Arrived</strong> saxenda now available.
                       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
