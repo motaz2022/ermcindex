@@ -30,7 +30,7 @@
         <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title text-danger" id="exampleModalLabel"><i class="bi bi-bell-fill text-danger"></i> Notifications</h5>
+                    <h5 class="modal-title text-secondary" id="exampleModalLabel"><i class="bi bi-bell-fill text-secondary"></i> Notifications</h5>
                     {{-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> --}}
                 </div>
                 <div class="modal-body">
@@ -51,6 +51,23 @@
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
                     {{-- alert end --}}
+
+                    {{-- alert --}}
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                      <i class="bi bi-info-circle-fill"></i>
+                      <strong>Drug Available</strong>Aminoleban 500 ml Not 250 ml.
+                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                     {{-- alert end --}}
+
+                     {{-- alert --}}
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                      <i class="bi bi-info-circle-fill"></i>
+                      <strong>Drug Arrived</strong> saxenda now available.
+                      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                     {{-- alert end --}}
+
                     {{-- alert --}}
                     <div class="alert alert-danger alert-dismissible fade show" role="alert">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
@@ -69,6 +86,7 @@
                             aria-label="Close"></button>
                     </div>
                     {{-- alert end --}}
+                    
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
