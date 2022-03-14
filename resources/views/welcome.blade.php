@@ -30,7 +30,7 @@
         <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title text-secondary" id="exampleModalLabel"><i class="bi bi-bell-fill text-secondary"></i> Notifications</h5>
+                    <h5 class="modal-title text-secondary" id="exampleModalLabel"><i class="bi bi-bell-fill text-secondary"></i> Updates</h5>
                     {{-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> --}}
                 </div>
                 <div class="modal-body">
