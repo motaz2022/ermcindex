@@ -55,7 +55,7 @@
                     {{-- alert --}}
                     <div class="alert alert-warning alert-dismissible fade show" role="alert">
                       <i class="bi bi-info-circle-fill"></i>
-                      <strong>Drug Available</strong>Aminoleban 500 ml Not 250 ml.
+                      <strong>Drug Available</strong> Aminoleban 500 ml Not 250 ml.
                       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
                      {{-- alert end --}}
