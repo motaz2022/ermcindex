@@ -63,7 +63,7 @@
                      {{-- alert --}}
                     <div class="alert alert-success alert-dismissible fade show" role="alert">
                       <i class="bi bi-check-circle-fill"></i>
-                      <strong>Saxenda</strong> Now Available.
+                      <strong>Victoza</strong> Now Available.
                       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
                      {{-- alert end --}}
@@ -112,7 +112,7 @@
     <!-- Modal END -->
 
     {{-- alert --}}
-    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+    {{-- <div class="alert alert-danger alert-dismissible fade show" role="alert">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
             class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img"
             aria-label="Warning:">
@@ -125,7 +125,7 @@
             Lipid-based and conventional formulations are not interchangeable and have different dosage
             recommendations.</small>
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
+    </div> --}}
     {{-- alert end --}}
 
 
