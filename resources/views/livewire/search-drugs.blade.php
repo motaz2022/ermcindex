@@ -53,7 +53,7 @@
             <div class="col-sm-12">
 
                 <div class="card mb-3">
-                    <h5 class="card-header">{{ $drug->tradename }} {{ $drug->note }}</h5>
+                    <h5 class="card-header">{{ $drug->tradename }} <small text-danger>{{ $drug->note }}</small></h5>
                     <div class="card-body">
 
                         <p class="card-title"><strong><i class="bi bi-card-text"
