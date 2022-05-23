@@ -87,6 +87,12 @@
                                         <i class="bi bi-x-circle"> {{ $drug->availability }}</i></span>
                                 @endif
                             </div>
+                            {{-- <div class="has-text-right m-2">
+                                <a href="/drug/{{ $drug->id }}"><button
+                                        class="card-header-icon button is-info is-light is-rounded">More Info</button></a>
+                            </div> --}}
+
+                    
                             {{-- <div class="col">
                                 <!-- Button trigger modal -->
                                 {{-- <div class="text-end">
