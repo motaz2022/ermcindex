@@ -53,7 +53,8 @@
             <div class="col-sm-12">
 
                 <div class="card mb-3">
-                    <h5 class="card-header">{{ $drug->tradename }} <small class="text-danger">{{ $drug->note }}</small></h5>
+                    <h5 class="card-header">{{ $drug->tradename }} <small
+                            class="text-danger">{{ $drug->note }}</small></h5>
                     <div class="card-body">
 
                         <p class="card-title"><strong><i class="bi bi-card-text"
@@ -72,8 +73,8 @@
                                     <strong>{{ $drug->price }} EGP</strong>
                                 </p>
                             </div>
-
-                            <div class="col-4 text-end">
+                            {{-- Start Drug availability --}}
+                            {{-- <div class="col-4 text-end">
                                 @if (str_contains($drug->availability, 'YES'))
                                 <span class="border rounded bg-light text-black px-1">
                                     <i class="bi bi-boxes"></i></span>
@@ -86,42 +87,20 @@
                                     <span class="border border-danger rounded bg-danger text-white px-1">
                                         <i class="bi bi-x-circle"> {{ $drug->availability }}</i></span>
                                 @endif
-                            </div>
+                            </div> --}}
                             {{-- <div class="has-text-right m-2">
                                 <a href="/drug/{{ $drug->id }}"><button
                                         class="card-header-icon button is-info is-light is-rounded">More Info</button></a>
                             </div> --}}
-
-                    
-                            {{-- <div class="col">
-                                <!-- Button trigger modal -->
-                                {{-- <div class="text-end">
-                                    <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">
-                                        SIDE EFFECTS
-                                    </button>
-                                </div> --}}
+                            {{-- End Drug availability --}}
 
 
-                            <!-- Modal -->
-                            {{-- <div class="modal fade" id="exampleModal" tabindex="-1"
-                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">
-                                                    {{ $drug->scientificname }}
-                                                </h5>
-                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                    aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                {{ $drug->se }}
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> --}}
-                            {{-- </div> --}}
+                            <div class="col">
+                                <!-- Button Side effects -->
+                                <div class="text-end">
+                                    <button type="button" class="btn btn-danger btn-sm">Side Effects</button>
+                                </div>
+                            </div>
                         </div>
 
 
@@ -152,7 +131,7 @@
         <footer class="bg-light m-2 p-2 rounded">
             <div class="text-center">
                 <h6>This index was Designed and Developed by the Department of Clinical Pharmacy, Railway Hospital
-                    <a href="https://ermcpharma.online/"> ERMCPharma.online</a>
+                    <a href="https://ermcpharma.com/"> ERMCPharma.com</a>
                 </h6>
                 <h6>© ERMC | Clinical Pharmacy Department 2022</h6>
             </div>
