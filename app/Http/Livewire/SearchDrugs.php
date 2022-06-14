@@ -27,7 +27,7 @@ class SearchDrugs extends Component
             ->orWhere('scientificname', 'like', '%'.$this->search.'%')
             ->orWhere('tradename', 'like', '%'.$this->search.'%')
             ->orderBy('id')
-            ->Simplepaginate(25),
+            ->Simplepaginate(30),
         ]);
     }
 }
