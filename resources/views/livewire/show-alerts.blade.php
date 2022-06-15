@@ -1,4 +1,4 @@
-<div>
+{{-- <div>
     @foreach ($alerts as $alert)
         <div class="alert {{ $alert->type }} alert-dismissible fade show" role="alert">
             <i class="{{ $alert->icon }}"></i>
@@ -6,4 +6,4 @@
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
     @endforeach
-</div>
+</div> --}}
