@@ -1,6 +1,6 @@
 <div>
     <div class="container">
-        <img class="rounded mx-auto d-block max-width: 25%; and height: auto" src="{{ asset('img/ermc2.png') }}"
+        <img class="rounded mx-auto d-block max-width: 25%; and height: auto" src="{{ asset('svg/ERMC Drug Formulary (500 × 80 px).svg') }}"
             alt="description of myimage">
         {{-- <h1 class="text-center my-3">ERMC Drug Index</h1> --}}
         <div class="input-group mb-2">
@@ -98,7 +98,7 @@
                             <div class="col">
                                 <!-- Button Side effects -->
                                 <div class="text-end">
-                                    <button type="button" class="btn btn-danger btn-sm">Side Effects</button>
+                                    <a href="/drug/{{ $drug->id }}"><button type="button" class="btn btn-danger btn-sm">Side Effects</button></a>
                                 </div>
                             </div>
                         </div>
@@ -130,7 +130,7 @@
 
         <footer class="bg-light m-2 p-2 rounded">
             <div class="text-center">
-                <h6>This index was Designed and Developed by the Department of Clinical Pharmacy, Railway Hospital
+                <h6>ERMC Drug Formulary V 1.0 was Designed and Developed by the Department of Clinical Pharmacy, Railway Hospital
                     <a href="https://ermcpharma.com/"> ERMCPharma.com</a>
                 </h6>
                 <h6>© ERMC | Clinical Pharmacy Department 2022</h6>

@@ -8,11 +8,20 @@ use Livewire\Component;
 
 class SearchDrugs extends Component
 {
+    use WithPagination;
 
     public $search = '';
-    use WithPagination;
+    public $foo;
+    public $page = 1;
+
+    
     protected $paginationTheme = 'bootstrap';
-    protected $queryString = ['search'];
+
+    protected $queryString = [
+        'foo',
+        'search' => ['except' => ''],
+        'page' => ['except' => 1],
+    ];
 
     public function updatingSearch()
     {
