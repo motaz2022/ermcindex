@@ -1,6 +1,6 @@
 <div>
     <div class="container">
-        <img class="rounded mx-auto d-block max-width: 25%; and height: auto" src="{{ asset('svg/ERMC Drug Formulary (500 × 80 px).svg') }}"
+        <img class="rounded mx-auto d-block max-width: 25%; and height: auto" src="{{ asset('svg/ERMC Drug Formulary (150 × 75 px).svg') }}"
             alt="description of myimage">
         {{-- <h1 class="text-center my-3">ERMC Drug Index</h1> --}}
         <div class="input-group mb-2">
